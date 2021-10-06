@@ -7,11 +7,21 @@ countingValleys has the following parameter(s):
 <ul>
   <li>int steps: the number of steps on the hike.</li>
   <li>string path: a string describing the path.</li>
-
+</ul>
 
 Returns
-<li>int: the number of valleys traversed.</li>
-</ul>
+
+int: the number of valleys traversed.
+
+Sample Input
+
+ n = 8;<br>
+ ar = ["U","D","D","U","U","D","D","U"];
+
+
+Sample Output
+
+2
 
 ## Author
 
