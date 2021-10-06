@@ -3,6 +3,7 @@
 function countingValleys(steps, path){
   let elevation = 0;
   let traversedValleys = 0;
+  
   for(let i = 0; i < steps; i++){
     if(path[i] === "D"){
       --elevation;
@@ -11,6 +12,7 @@ function countingValleys(steps, path){
       traversedValleys++
     }
   }
+  
   return traversedValleys; 
 }
  
